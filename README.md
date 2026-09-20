@@ -1,10 +1,10 @@
-WORKSHOP 01 — Addition of Two Numbers
-Android Studio — Java
-1. AIM
+## WORKSHOP 01 — Addition of Two Numbers
+## Android Studio — Java
+## 1. AIM
 
 To develop an Android application using Android Studio and Java to add two numbers entered by the user and display the result.
 
-2. ALGORITHM
+## 2. ALGORITHM
 Start the application.
 Create two input fields to enter the numbers.
 Create an ADD button.
@@ -14,7 +14,8 @@ Convert the input values into integers.
 Add the two numbers.
 Display the sum in a TextView.
 Stop.
-3. PROGRAM
+## 3. PROGRAM
+```
 MainActivity.java
 package com.example.addition;
 
@@ -52,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-activity_main.xml
+```
+## activity_main.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
@@ -91,7 +94,8 @@ activity_main.xml
         android:padding="20dp" />
 
 </LinearLayout>
-4. OUTPUT
+```
+## 4. OUTPUT
 
 Input:
 <img width="959" height="539" alt="Screenshot 2026-09-20 175458" src="https://github.com/user-attachments/assets/17ba155e-0c90-475e-b7ef-beb69a0f04f2" />
@@ -100,11 +104,11 @@ Input:
 Enter first number: 20
 Enter second number: 80
 
-After clicking ADD:
+## After clicking ADD:
 <img width="959" height="539" alt="Screenshot 2026-09-20 175433" src="https://github.com/user-attachments/assets/d282fe09-bdcb-435a-b4f9-fd10e4eed67e" />
 
 
 Result = 100.0
-5. RESULT
+## 5. RESULT
 
 Thus, the Android application for addition of two numbers was successfully developed and executed using Android Studio and Java.
